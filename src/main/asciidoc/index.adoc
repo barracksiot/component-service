@@ -1,0 +1,86 @@
+= Component Service
+
+== Create a package
+A `POST` request creates a package.
+
+include::{snippets}/packages/create/request-fields.adoc[]
+
+=== Request
+include::{snippets}/packages/create/http-request.adoc[]
+include::{snippets}/packages/create/curl-request.adoc[]
+
+=== Response
+
+include::{snippets}/packages/create/http-response.adoc[]
+
+
+== Get a package
+A `GET` request get a package details.
+
+include::{snippets}/packages/get/path-parameters.adoc[]
+
+=== Request
+
+include::{snippets}/packages/get/http-request.adoc[]
+include::{snippets}/packages/get/curl-request.adoc[]
+
+=== Response
+
+include::{snippets}/packages/get/http-response.adoc[]
+include::{snippets}/packages/get/response-fields.adoc[]
+
+
+== List packages
+A `GET` request lists packages.
+
+include::{snippets}/packages/list/path-parameters.adoc[]
+
+=== Request
+
+include::{snippets}/packages/list/http-request.adoc[]
+include::{snippets}/packages/list/curl-request.adoc[]
+
+=== Response
+
+include::{snippets}/packages/list/http-response.adoc[]
+include::{snippets}/packages/list/response-fields.adoc[]
+
+
+== Create a version
+A `POST` request creates a version.
+
+=== Request
+include::{snippets}/versions/create/http-request.adoc[]
+include::{snippets}/versions/create/curl-request.adoc[]
+
+=== Response
+
+include::{snippets}/versions/create/http-response.adoc[]
+
+
+== Retrieve a version
+A `Get` request retrieves a version.
+
+include::{snippets}/versions/get/path-parameters.adoc[]
+
+=== Request
+include::{snippets}/versions/get/http-request.adoc[]
+include::{snippets}/versions/get/curl-request.adoc[]
+
+=== Response
+
+include::{snippets}/versions/get/http-response.adoc[]
+
+
+== Retrieve a version file
+A `Get` request retrieves a version.
+
+include::{snippets}/versions/get-file/path-parameters.adoc[]
+
+=== Request
+include::{snippets}/versions/get-file/http-request.adoc[]
+include::{snippets}/versions/get-file/curl-request.adoc[]
+
+=== Response
+
+include::{snippets}/versions/get-file/http-response.adoc[]
